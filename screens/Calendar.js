@@ -1,10 +1,10 @@
 import React from "react";
 import {View, Text} from "react-native";
 
-const Tv = () => (
+const Calendar = () => (
     <View style={{}}>
-        <Text>Tv</Text>
+        <Text>Calendar</Text>
     </View>
 );
 
-export default Tv;
+export default Calendar;
