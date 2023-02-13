@@ -1,5 +1,5 @@
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
-import Calendar from '../screens/Calendar';
+import Game from '../screens/Game';
 import Food from '../screens/Food';
 import Search from '../screens/Search';
 
@@ -16,7 +16,7 @@ function TopBar() {
         }}
       >
         <Tab.Screen name="Food" component={Food} />
-        <Tab.Screen name="Calendar" component={Calendar} />
+        <Tab.Screen name="Game" component={Game} />
         <Tab.Screen name="Search" component={Search} />
       </Tab.Navigator>
   );

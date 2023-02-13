@@ -32,7 +32,7 @@ export default function App() {
   return (
     <ThemeProvider theme = {isDark ? darkTheme : lightTheme}>
       <NavigationContainer>
-        <TopBar/>
+        <Tabs/>
       </NavigationContainer>
     </ThemeProvider>
 

@@ -1,10 +1,10 @@
 import React from "react";
 import {View, Text} from "react-native";
 
-const Calendar = () => (
+const Game = () => (
     <View style={{}}>
-        <Text>Calendar</Text>
+        <Text>랜덤 Game</Text>
     </View>
 );
 
-export default Calendar;
+export default Game;
